@@ -1,2 +1,2 @@
-# projeto-shell-p2
-Projeto para disciplina shell script com adições para a p2
+# Projeto-shell
+Projeto para a matério de shell script, onde três funções de redes serão automatizadas
