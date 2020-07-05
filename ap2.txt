@@ -1,3 +1,5 @@
 Helen;2341;Padaria
 João;2341;Caixa
 Angela;2133;Hortifruti
+Ana;2134;Logistica
+Roberto;3321;Frios
