@@ -11,7 +11,8 @@ OPC=$(dialog --stdout\
    3 '- Acessar compartilhamento SAMBA com smbclient'\
    4 '- Sobre'\
    5 '- Relatório IP'\
-   6 '- Sair')
+   6 '- Acrescenta usuários ap2'\
+   7 '- Sair')
 
 CAM=("opcs/")
 
@@ -48,7 +49,10 @@ case $OPC in
 		$CAM/relatorioIP.sh
 		clear
 		;;
-        6) 
+		6) 
+		$CAM/addusuario.sh
+		;;
+        7) 
 		echo 'Saindo do programa'
 		clear
 		;;
